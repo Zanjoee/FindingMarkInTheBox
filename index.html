@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    
+</head>
+<body>
+    <div class="main-container">
+        <h1>Finding Mark in the Box</h1>
+        <div class="game-container">
+                <div class="box" onclick="checkBox(0)"></div>
+                <div class="box" onclick="checkBox(1)"></div>
+                <div class="box" onclick="checkBox(2)"></div>
+        </div>
+        <p id="message">Click on a box to find Mark!</p>
+        <button id="play-again-button" onclick="resetGame()">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

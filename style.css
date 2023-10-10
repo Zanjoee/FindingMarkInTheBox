@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height:100vh;
+    display:flex;
+    margin:0px;
+    align-items:center;
+    justify-content:center;
+}
+
+h1 {
+    color: #333;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border:3px solid #222;
+    background-size: cover; /* Set the background image size to cover the entire box */
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0ba4db;
+    color: #fff;
+    border: 2px solid #0783b0;
+    border-radius:15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.main-container {
+  background-color:#fff;
+  padding:15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Add this CSS for centering the button */
+#play-again-button {
+    display: none;
+    margin: 20px auto; /* Center horizontally with auto margins */
+}
+
